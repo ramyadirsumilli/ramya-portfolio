@@ -9,6 +9,7 @@ const skills = [
 ];
 
 const experience = [
+  { role: 'Senior Software Engineer', company: 'IBM India Pvt Ltd. · Client: American Express', period: 'Oct 2025 — Present', detail: 'Building and supporting cloud-native services and data workflows in a financial-services environment.', tags: ['Java', 'Spring Boot', 'GCP', 'BigQuery', 'Pub/Sub', 'Airflow'] },
   { role: 'Senior Software Engineer', company: 'Tecaholic Solutions LLC · Client: American Express', period: 'Mar 2024 — Aug 2025', detail: 'Building and supporting cloud-native services and data workflows in a financial-services environment.', tags: ['Java', 'Spring Boot', 'GCP', 'BigQuery', 'Pub/Sub', 'Airflow'] },
   { role: 'Senior Software Engineer', company: 'Sintec Informatik GmbH', period: 'Dec 2022 — Jun 2023', detail: 'Contributed to software engineering delivery, collaborating across teams to develop and maintain robust applications.', tags: ['Backend engineering', 'APIs', 'Agile delivery'] },
   { role: 'Software Engineer · R&D', company: 'Treasury Intelligence Solutions (TIS)', period: 'Nov 2020 — Oct 2022', detail: 'Worked on product engineering in a treasury and financial-technology context, with exposure to cloud services and application development.', tags: ['Java', 'AWS', 'Product engineering', 'R&D'] },
@@ -22,7 +23,6 @@ const projects = [
 ];
 
 const links = {
-  // Replace these placeholders with your real profile URLs before publishing.
   linkedin: 'https://www.linkedin.com/in/ramya-dirsumilli/',
   github: 'https://github.com/ramyadirsumilli',
   email: 'mailto:ramya.dirsumilli@gmail.com',
@@ -54,13 +54,16 @@ function App() {
           <div className="hero-actions"><a className="button button-primary" href="#projects">Explore my work <ArrowRight size={17}/></a><a className="button button-quiet" href="#about">More about me <ArrowDown size={16}/></a><a className="cv-link" href="/Ramya-Dirsumilli-CV.pdf" download>Download CV <ArrowUpRight size={14}/></a></div>
           <div className="social-row"><a href={links.linkedin} target="_blank" rel="noreferrer"><Linkedin size={16}/> LinkedIn <ArrowUpRight size={13}/></a><a href={links.github} target="_blank" rel="noreferrer"><Github size={16}/> GitHub <ArrowUpRight size={13}/></a><a href={links.email}><Mail size={16}/> Email</a></div>
         </div>
-        <div className="hero-visual" aria-label="Illustration of software architecture">
+        <div className="hero-visual profile-visual" aria-label="Professional portrait of Ramya Dirsumilli">
           <div className="visual-orbit orbit-a"/><div className="visual-orbit orbit-b"/>
-          <div className="code-window"><div className="window-top"><div className="window-dots"><i/><i/><i/></div><span>architecture.ts</span><span className="window-status">● LIVE THINKING</span></div>
-            <div className="code-body"><div><span className="line-no">01</span><span className="syntax-purple">const</span> <span className="syntax-blue">engineering</span> = {'{'}</div><div><span className="line-no">02</span> &nbsp; <span className="syntax-green">reliable</span>: <span className="syntax-orange">true</span>,</div><div><span className="line-no">03</span> &nbsp; <span className="syntax-green">scalable</span>: <span className="syntax-orange">true</span>,</div><div><span className="line-no">04</span> &nbsp; <span className="syntax-green">observable</span>: <span className="syntax-orange">true</span>,</div><div><span className="line-no">05</span> &nbsp; <span className="syntax-green">secureByDesign</span>: <span className="syntax-orange">true</span></div><div><span className="line-no">06</span>{'}'};</div><div className="code-spacer"/><div><span className="line-no">08</span><span className="syntax-muted">// Ship value, not just code.</span></div><div><span className="line-no">09</span><span className="cursor-block"/></div></div>
+          <div className="profile-photo-frame">
+            <img className="profile-photo" src="/ramya-profile.jpg" alt="Ramya Dirsumilli, Senior Software Engineer" />
+            <div className="profile-photo-shade" />
+            <div className="profile-photo-label"><span className="status-dot"/> OPEN TO THE NEXT CHALLENGE</div>
           </div>
-          <div className="floating-chip chip-cloud"><Cloud size={16}/><span>Cloud-native</span><span className="chip-check"><Check size={11}/></span></div><div className="floating-chip chip-data"><Workflow size={16}/><span>Distributed systems</span></div>
-          <div className="visual-caption"><span className="caption-line"/> BUILD <span>·</span> AUTOMATE <span>·</span> IMPROVE</div>
+          <div className="floating-chip chip-cloud"><Cloud size={16}/><span>Cloud-native</span><span className="chip-check"><Check size={11}/></span></div>
+          <div className="floating-chip chip-data"><Workflow size={16}/><span>Distributed systems</span></div>
+          <div className="visual-caption"><span className="caption-line"/> JAVA <span>·</span> CLOUD <span>·</span> ENGINEERING</div>
         </div>
         <a className="scroll-cue" href="#about"><span/> SCROLL TO EXPLORE</a>
       </section>
