@@ -9,11 +9,11 @@ const skills = [
 ];
 
 const experience = [
-  { role: 'Senior Software Engineer', company: 'IBM India Pvt Ltd. · Client: American Express', period: 'Oct 2025 — Present', detail: 'Building and supporting cloud-native services and data workflows in a financial-services environment.', tags: ['Java', 'Spring Boot', 'GCP', 'BigQuery', 'Pub/Sub', 'Airflow'] },
+  { role: 'Senior Software Engineer / Tech Lead', company: 'IBM India Pvt Ltd. · Client: American Express', period: 'Oct 2025 — Present', detail: 'Enterprise engineering experience spanning cloud and data-processing technologies.', tags: ['Java', 'Spring Boot', 'GCP', 'BigQuery', 'Pub/Sub', 'Airflow'] },
   { role: 'Senior Software Engineer', company: 'Tecaholic Solutions LLC · Client: American Express', period: 'Mar 2024 — Aug 2025', detail: 'Building and supporting cloud-native services and data workflows in a financial-services environment.', tags: ['Java', 'Spring Boot', 'GCP', 'BigQuery', 'Pub/Sub', 'Airflow'] },
   { role: 'Senior Software Engineer', company: 'Sintec Informatik GmbH', period: 'Dec 2022 — Jun 2023', detail: 'Contributed to software engineering delivery, collaborating across teams to develop and maintain robust applications.', tags: ['Backend engineering', 'APIs', 'Agile delivery'] },
   { role: 'Software Engineer · R&D', company: 'Treasury Intelligence Solutions (TIS)', period: 'Nov 2020 — Oct 2022', detail: 'Worked on product engineering in a treasury and financial-technology context, with exposure to cloud services and application development.', tags: ['Java', 'AWS', 'Product engineering', 'R&D'] },
-  { role: 'Software Engineer', company: 'IBM India Pvt. Ltd. · Client: American Express', period: 'Earlier experience', detail: 'Enterprise engineering experience spanning cloud and data-processing technologies. Add verified project details and dates before publishing.', tags: ['GCP', 'Python', 'Apache Beam', 'Apache Flink'] },
+  { role: 'Full Stack & Software Developer', company: 'Form Solutions GmbH, Hermes Germany GmbH, and Arvato SCM Solutions (Bertelsmann), Germany', period: 'Earlier experiences - Sep 2016 – Oct 2020', detail: 'Delivered enterprise applications and Java/Spring Boot microservices, developed React, Vue.js and Angular frontends, implemented CI/CD automation and monitoring, and contributed to cloud deployments and scalable logistics solutions for clients including Volkswagen, Porsche, Audi and Zurich Insurance.', tags: ['AngularJS','ReactJS', 'VueJS', 'Java', 'Kotlin', 'AWS', 'Spring', 'CI/CD'] },
 ];
 
 const projects = [
@@ -59,10 +59,8 @@ function App() {
           <div className="profile-photo-frame">
             <img className="profile-photo" src="/ramya-profile.jpg" alt="Ramya Dirsumilli, Senior Software Engineer" />
             <div className="profile-photo-shade" />
-            <div className="profile-photo-label"><span className="status-dot"/> OPEN TO THE NEXT CHALLENGE</div>
           </div>
-          <div className="floating-chip chip-cloud"><Cloud size={16}/><span>Cloud-native</span><span className="chip-check"><Check size={11}/></span></div>
-          <div className="floating-chip chip-data"><Workflow size={16}/><span>Distributed systems</span></div>
+          <div className="visual-caption"></div>
           <div className="visual-caption"><span className="caption-line"/> JAVA <span>·</span> CLOUD <span>·</span> ENGINEERING</div>
         </div>
         <a className="scroll-cue" href="#about"><span/> SCROLL TO EXPLORE</a>
