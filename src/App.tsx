@@ -1,4 +1,4 @@
-import { ArrowDown, ArrowRight, ArrowUpRight, Braces, Check, Cloud, Code2, Database, Github, Linkedin, Mail, Menu, Server, Workflow, X } from 'lucide-react';
+import { ArrowDown, ArrowRight, ArrowUpRight, Braces, Cloud, Code2, Database, Github, Linkedin, Mail, Menu, Server, Workflow, X } from 'lucide-react';
 import { useState } from 'react';
 
 const skills = [
