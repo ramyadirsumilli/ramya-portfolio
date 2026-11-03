@@ -60,9 +60,8 @@ function App() {
             <img className="profile-photo" src="/ramya-profile.jpg" alt="Ramya Dirsumilli, Senior Software Engineer" />
             <div className="profile-photo-shade" />
           </div>
-          <div className="visual-caption"></div>
-          <div className="visual-caption"><span className="caption-line"/> JAVA <span>·</span> CLOUD <span>·</span> ENGINEERING</div>
         </div>
+        <div className="visual-caption"><span className="caption-line"/> JAVA <span>·</span> CLOUD <span>·</span> ENGINEERING</div>
         <a className="scroll-cue" href="#about"><span/> SCROLL TO EXPLORE</a>
       </section>
 
