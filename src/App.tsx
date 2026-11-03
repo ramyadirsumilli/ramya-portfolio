@@ -76,7 +76,6 @@ function App() {
       <section className="experience section-wrap section-pad" id="experience">
         <div className="section-heading"><span className="section-index">02 / EXPERIENCE</span><h2>Experience that spans<br/><span className="muted-heading">products, platforms & teams.</span></h2><p className="section-description">A selection of roles across enterprise engineering and financial technology. Please verify dates, titles and descriptions before publishing.</p></div>
         <div className="timeline">{experience.map((job, i) => <article className="timeline-item" key={job.company}><div className="timeline-marker">{String(i + 1).padStart(2, '0')}</div><div className="timeline-content"><div className="timeline-meta"><span>{job.period}</span>{i === 0 && <span className="current-label">MOST RECENT</span>}</div><h3>{job.role}</h3><div className="company-name">{job.company}</div><p>{job.detail}</p><div className="tag-row">{job.tags.map(tag => <span className="tag" key={tag}>{tag}</span>)}</div></div></article>)}</div>
-        <p className="small-note">*Confirm the current role end date/status and update any dates marked “Earlier experience” to match your final CV.</p>
       </section>
 
       <section className="skills section-wrap section-pad" id="skills">
@@ -85,7 +84,7 @@ function App() {
       </section>
 
       <section className="projects section-wrap section-pad" id="projects">
-        <div className="section-heading project-heading"><div><span className="section-index">04 / SELECTED WORK</span><h2>Thoughtful engineering.<br/><span className="muted-heading">Real-world patterns.</span></h2></div><p className="section-description">These are portfolio case-study templates, not claims of public production projects. Replace or supplement them with work you can discuss publicly.</p></div>
+        <div className="section-heading project-heading"><div><span className="section-index">04 / SELECTED WORK</span><h2>Thoughtful engineering.<br/><span className="muted-heading">Real-world patterns.</span></h2></div></div>
         <div className="project-list">{projects.map(project => <article className={expandedProject === project.number ? 'project-card project-expanded' : 'project-card'} key={project.number}><button className="project-toggle" onClick={() => setExpandedProject(expandedProject === project.number ? null : project.number)} aria-expanded={expandedProject === project.number}><span className="project-number">{project.number}</span><span className="project-title-group"><span className="project-type">{project.type}</span><span className="project-title">{project.title}</span></span><span className="project-arrow"><ArrowUpRight size={19}/></span></button>{expandedProject === project.number && <div className="project-details"><p>{project.description}</p><div className="project-detail-grid"><div><h4>ENGINEERING FOCUS</h4><ul>{project.points.map(point => <li key={point}>{point}</li>)}</ul></div><div><h4>TECH STACK</h4><div className="tag-row">{project.stack.map(tag => <span className="tag" key={tag}>{tag}</span>)}</div></div></div><div className="case-study-note">Next step: add a diagram, your specific contribution, trade-offs, and verified outcomes.</div></div>}</article>)}</div>
       </section>
 
