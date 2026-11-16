@@ -51,7 +51,7 @@ function App() {
           <h1>Engineering systems<br/>that <span className="gradient-text">scale with purpose.</span></h1>
           <p className="hero-intro">I’m Ramya — a software engineer focused on dependable backend systems, cloud platforms and thoughtful full-stack experiences.</p>
           <p className="hero-subtext">Java · Spring Boot · GCP / AWS · Distributed data processing · React</p>
-          <div className="hero-actions"><a className="button button-primary" href="#projects">Explore my work <ArrowRight size={17}/></a><a className="button button-quiet" href="#about">More about me <ArrowDown size={16}/></a><a className="cv-link" href="/Ramya-Dirsumilli-CV.pdf" download>Download CV <ArrowUpRight size={14}/></a></div>
+          <div className="hero-actions"><a className="button button-primary" href="#projects">Explore my work <ArrowRight size={17}/></a><a className="button button-quiet" href="#about">More about me <ArrowDown size={16}/></a><a className="cv-link" href="/Ramya_Dirsumilli_Senior_Software_Engineer_Tech_Lead.pdf" download>Download CV <ArrowUpRight size={14}/></a></div>
           <div className="social-row"><a href={links.linkedin} target="_blank" rel="noreferrer"><Linkedin size={16}/> LinkedIn <ArrowUpRight size={13}/></a><a href={links.github} target="_blank" rel="noreferrer"><Github size={16}/> GitHub <ArrowUpRight size={13}/></a><a href={links.email}><Mail size={16}/> Email</a></div>
         </div>
         <div className="hero-visual profile-visual" aria-label="Professional portrait of Ramya Dirsumilli">
